@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+:root {
+	--unnamed-color-000000: #000000;	
+}
+
+section.colonne-principale{
+	display: flex;
+	justify-content: flex-end;
+	flex-flow: row-reverse wrap;
+}
+
+section.colonne {
+	width: 800px;
+	height: 730px;
+	box-shadow: 0px 1px 6px rgb(205, 205, 205);
+	flex-flow: row wrap;
+	margin-bottom: 38px;
+	margin-right: 20px;
+}
+
+p.contenu {
+	padding: 10px 101px 103px 57px;
+	color: var(--unnamed-color-000000);
+	font-size: 1rem;
+	font-weight: 600;
+}
+
+img.image {
+	width: 800px;
+	height: 445px;
+}
+
+h2.titre-contenu {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 3rem;
+	font-weight: 550;
+	padding: 34px 152px 0 54px;
+}
+
+footer {
+	margin-top: 135px;
+}
+

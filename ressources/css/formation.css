@@ -1,0 +1,101 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.titre {
+	font-size: 2.25rem;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.sommaire a {
+	color: #00C8F8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+ul.sommaire {
+	padding: 0.5em;
+	font-size: 1.5rem;
+	height: 159px;
+	width: 292px;
+	background: #F9F9F9 0% 0% no-repeat padding-box;
+	border: 1px solid #00C8F8;
+	opacity: 1;
+	margin-bottom: 2em;
+	line-height: 1.80em;
+}
+
+ul {
+	color: black;
+}
+
+.important {
+	font-weight: bold;
+}
+
+.images .image-carrousel {
+	width: 640px;
+	height: 420px;
+}
+
+.caroussel {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+#défilé {
+	width: 500px;
+	overflow: hidden;
+	border: 2px solid #333
+}
+
+.images {
+	display: flex;
+	animation-duration: 20s;
+	animation-name: LesImages;
+	animation-iteration-count: infinite;
+}
+
+@keyframes LesImages {
+	0% {
+		transform: translateX(0);
+	}
+	25% {
+		transform: translateX(-625px);
+	}
+	50% {
+		transform: translateX(-1250px);
+	}
+	75% {
+		transform: translateX(-1875px); 
+	}
+	100% {
+		transform: translateX(0);
+	}
+}
+
+
+.paragraphe {
+	font-size: 1.25rem;
+	margin-top: 2rem;
+	margin-bottom: 1.75rem;
+	line-height: 1.75rem;
+}
+
+.paragraphe .list {
+	padding: 1em;
+	margin-left: 5%;
+	list-style: inside;
+	color: #00C8F8;
+}
+
+.debouches-texte {
+	margin-top: 15px;
+}
+
+

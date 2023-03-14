@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+
+.video {
+	display: flex;
+	align-items: center;
+	flex-flow: row wrap;
+	align-content: space-between;
+	justify-content:space-evenly;
+
+}
+
+.titre-video {
+	font-family: Segoe UI;
+	font-weight: regular;
+	color: grey; 
+	text-align: center;
+	font-size: 2rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 4px;
+	width: 100%;
+}
+
+.espacement {
+	margin-top: 54.86px;
+	
+}
+
+.titre-video-suite {
+	font-family: Segoe UI;
+	font-weight: regular;
+	color: grey; 
+	text-align: center;
+	font-size: 2rem;
+	padding: 1rem;
+	text-align: center;
+	border-radius: 4px;
+	width: 100%;
+	margin-top: -20px;
+}
+
+footer {
+	margin-top: 136px;
+}
